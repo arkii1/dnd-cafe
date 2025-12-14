@@ -11,7 +11,7 @@ export default function Hero()
                 <p className="text-3xl font-semibold">NOW OPEN</p>
                 <Link href="/book" className="cursor-pointer font-semibold shadow-lg mt-8 bg-sky-700 py-4 px-10 rounded-lg">FIND OUT MORE AND BOOK!</Link>  
             </div>
-            <video autoPlay loop muted className="h-[1200px] object-cover pointer-events-none">
+            <video autoPlay loop muted className="h-[1200px] object-cover pointer-events-none w-full">
                 <source src="/coffee_pour.mp4" type="video/mp4"  />
                 Your browser does not support the video tag.
             </video>
