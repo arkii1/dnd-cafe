@@ -12,6 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>DnD Cafe </title>
         <link href="https://db.onlinewebfonts.com/c/ab7546c976eeaf64ef57c6a39628c127?family=Quasimoda-SemiBold" rel="stylesheet"></link>
       </head>
       <body
