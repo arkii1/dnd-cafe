@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Hero()
 {
     return <>
-        <section className="relative h-[1200px]">
+        <section className="relative h-screen xs:h-[1200px]">
             <div className="absolute flex flex-col justify-center items-center inset-0  text-center gap-3xs">
                 <h1 className="font-bold">
                     DND CAFE BRISTOL
