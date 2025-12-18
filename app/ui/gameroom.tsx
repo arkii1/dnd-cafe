@@ -16,7 +16,7 @@ export default function GameRoom() {
                     <p>package here</p>
                     <p>date here</p>
                 </div>
-                <small className="text-xs font-thin italic ml-auto mt-2 text-slate-100/40">Powered by example</small>
+                <small className="text-xs font-thin italic ml-auto mt-2 text-slate-900/40">Powered by example</small>
             </div>
             
             <video autoPlay loop muted className="h-1/2 w-full sm:h-[1200px] object-cover pointer-events-none">
