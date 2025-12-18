@@ -17,7 +17,7 @@ export default function GameRoom() {
                 </div>
             </div>
             
-            <video autoPlay loop muted className="h-[1200px] object-cover pointer-events-none">
+            <video autoPlay loop muted className="h-screen sm:h-[1200px] object-cover pointer-events-none">
                 <source src="/game_room.mp4" type="video/mp4"  />
                 Your browser does not support the video tag.
             </video>
