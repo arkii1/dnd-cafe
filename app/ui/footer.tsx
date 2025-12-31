@@ -1,9 +1,9 @@
 import IconLink from "./iconLink";
-import { FaInstagram, FaFacebook, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaFacebook, FaXTwitter} from "react-icons/fa6";
+import NewsLetterSignUp from "./newsLetterSignup";
 
 export default function Footer() {
     const year = new Date().getFullYear();
-
 
     return (
         <footer className="grid py-12 px-8 gap-8 w-full">
@@ -17,6 +17,8 @@ export default function Footer() {
                     BN1 1AB
                 </address>
             </p>
+
+            <NewsLetterSignUp />
             
             <div className="flex gap-12 w-full justify-start col-span-full">
                 <IconLink link="#" icon={FaFacebook} classes=''/>
