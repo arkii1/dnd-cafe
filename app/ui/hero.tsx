@@ -9,7 +9,7 @@ export default function Hero()
                     DND CAFE BRISTOL
                 </h1>
                 <p className="text-4xl sm:text-6xl font-bold tracking-widest">NOW OPEN</p>
-                <Link href="/book" className="cursor-pointer font-semibold shadow-lg mt-8 mx-4 bg-sky-700 py-4 px-8 max-w-[320px] sm:px-19 sm:w-auto outline-1 outline-sky-900/80 shadow-lg">FIND OUT MORE AND BOOK!</Link>  
+                <Link href="#booking-section" className="cursor-pointer font-semibold shadow-lg mt-8 mx-4 bg-sky-700 py-4 px-8 max-w-[320px] sm:px-19 sm:w-auto outline-1 outline-sky-900/80 shadow-lg">FIND OUT MORE AND BOOK!</Link>  
             </div>
             <video autoPlay loop muted className="h-screen sm:h-[1200px] object-cover pointer-events-none w-full">
                 <source src="/coffee_pour.mp4" type="video/mp4"  />
