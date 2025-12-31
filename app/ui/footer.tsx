@@ -3,8 +3,6 @@ import { FaInstagram, FaFacebook, FaXTwitter} from "react-icons/fa6";
 import NewsLetterSignUp from "./newsLetterSignup";
 
 export default function Footer() {
-    const year = new Date().getFullYear();
-
     return (
         <footer className="grid py-12 px-8 gap-8 w-full">
             <p className="col-span-full text-md flex flex-col justify-start gap-2">
@@ -25,7 +23,7 @@ export default function Footer() {
                 <IconLink link="#" icon={FaXTwitter} classes=''/>
                 <IconLink link="#" icon={FaInstagram} classes=''/>
             </div>
-            <p className="col-span-full w-full text-xs font-thin italic text-slate-100">©{year+1}, DnD Cafe Ltd.</p>
+            <p className="col-span-full w-full text-xs font-thin italic text-slate-100">©2025, DnD Cafe Ltd.</p>
         </footer>
     )
 }
