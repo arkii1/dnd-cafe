@@ -4,7 +4,7 @@ export default function Hero()
 {
     return <>
         <section className="relative h-[90vh] sm:h-[1200px]">
-            <div className="absolute flex flex-col justify-start items-center inset-x-0 text-center sm:gap-2xs top-1/3 mt-15 sm:top-1/4 sm:mt-0">
+            <div className="absolute flex flex-col justify-start items-center inset-x-0 text-center sm:gap-2xs top-1/3 mt-15 sm:top-1/3">
                 <h1 className="text-3xl font-black sm:tracking-wider">
                     DND CAFE BRISTOL
                 </h1>

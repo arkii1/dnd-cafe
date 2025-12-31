@@ -15,14 +15,14 @@ export default function GameRoom() {
 
     return <>
         <section className="relative h-[1028px] sm:h-[1200px] bg-slate-100" id="booking-section">
-            <div className="absolute flex justify-between items-center insert-0 top-0 h-1/2 w-full left-1/2 px-5 -translate-x-1/2">
+            <div className="absolute flex justify-between items-center insert-0 top-0 h-1/2 w-full left-1/2 sm:left-1/5 px-5 -translate-x-1/2 max-w-[380px]">
                 <div className="flex flex-col justify-center items-start text-start gap-3">
                     <h2 className="text-4xl font-extrabold">BOOK NOW</h2>
                     <p className="italic text-m">Reserve & pay, and recieve access to a range retro consoles & board games.</p>
                 </div>
             </div>
 
-            <div className="absolute flex flex-col justify-start items-between py-4 insert-0 top-1/3 w-full px-5 left-1/2 -translate-x-1/2">
+            <div className="absolute flex flex-col justify-start items-between py-4 insert-0 top-1/3 w-full px-5 left-1/2 sm:left-1/5 -translate-x-1/2 max-w-[380px]">
                 <form onSubmit={submitForm} id="booking-form" className="flex flex-col justify-start items-start p-4 text-start gap-3 h-full bg-slate-100 text-sky-700 shadow-lg outline-0">
                     <h3 className="text-2xl font-extrabold">BOOK YOUR TABLE</h3>
                     <DayPicker
@@ -91,7 +91,7 @@ export default function GameRoom() {
                         BOOK TABLE
                     </button>
                 </form>
-                <small className="text-xs font-thin italic ml-auto mt-2 text-slate-900/40">Powered by react-day-picker</small>
+                <small className="text-xs font-thin italic ml-auto mt-2 text-slate-900/40 sm:text-slate-100/80">Powered by react-day-picker</small>
             </div>
             
             <video autoPlay loop muted className="h-1/2 w-full sm:h-[1200px] object-cover pointer-events-none">
