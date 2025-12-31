@@ -18,7 +18,7 @@ export default function Footer() {
 
             <NewsLetterSignUp />
             
-            <div className="flex gap-12 w-full justify-start col-span-full">
+            <div className="flex gap-6 w-full justify-start col-span-full">
                 <IconLink link="#" icon={FaFacebook} classes=''/>
                 <IconLink link="#" icon={FaXTwitter} classes=''/>
                 <IconLink link="#" icon={FaInstagram} classes=''/>
