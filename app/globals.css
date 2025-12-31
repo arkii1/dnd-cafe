@@ -16,7 +16,16 @@
     --primary: var(--light);
     --secondary: var(--dark);  
   }
+
+
 }
+
+* {
+  --rdp-accent-color: #0369a1;
+  --rdp-selected-border: #0369a1;
+  --rdp-today-color: black;
+}
+
 
 /* Prefers light mode and not toggled */
 @media (prefers-color-scheme: light) {

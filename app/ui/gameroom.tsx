@@ -1,6 +1,12 @@
+'use client';
 
+import { DayPicker } from "react-day-picker";
+import "react-day-picker/style.css";
+import { useState } from "react";
 
 export default function GameRoom() {
+  const [selected, setSelected] = useState<Date>();
+
     return <>
         <section className="relative h-[100vh] sm:h-[1200px] bg-slate-100">
             <div className="absolute flex justify-between items-center insert-0 top-0 h-1/2 mx-10">
@@ -14,9 +20,14 @@ export default function GameRoom() {
                 <div className="flex flex-col justify-start items-start p-4 text-start gap-3 h-full bg-slate-100 text-sky-700 shadow-lg outline-0">
                     <h3 className="text-2xl font-extrabold">SELECT YOUR PACKAGE & DATE</h3>
                     <p>package here</p>
-                    <p>date here</p>
+                     <DayPicker
+                        animate
+                        mode="single"
+                        selected={selected}
+                        onSelect={setSelected}
+                    />
                 </div>
-                <small className="text-xs font-thin italic ml-auto mt-2 text-slate-900/40">Powered by example</small>
+                <small className="text-xs font-thin italic ml-auto mt-2 text-slate-900/40">Powered by react-day-picker</small>
             </div>
             
             <video autoPlay loop muted className="h-1/2 w-full sm:h-[1200px] object-cover pointer-events-none">
