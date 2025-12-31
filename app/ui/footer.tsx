@@ -23,7 +23,7 @@ export default function Footer() {
                 <IconLink link="#" icon={FaXTwitter} classes=''/>
                 <IconLink link="#" icon={FaInstagram} classes=''/>
             </div>
-            <p className="col-span-full w-full text-xs font-thin italic text-slate-100/40">©{year+1}, DnD Cafe Ltd.</p>
+            <p className="col-span-full w-full text-xs font-thin italic text-slate-100">©{year+1}, DnD Cafe Ltd.</p>
         </footer>
     )
 }
