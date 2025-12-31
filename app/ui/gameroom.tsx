@@ -30,6 +30,7 @@ export default function GameRoom() {
                         mode="single"
                         selected={selected}
                         onSelect={setSelected}
+                        navLayout="around"
                     />
                     <div className="flex flex-col border-sky-900 border-1 p-2 relative gap-0.5 w-full">
                         <label className="text-xs text-sky-700" htmlFor="booking-email">Email</label>
