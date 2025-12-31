@@ -24,7 +24,7 @@ export default function Navbar() {
     const pathname = usePathname()
 
     return <>
-        <button className='fixed top-m right-m cursor-pointer' onClick={() => setOpen(true)} aria-label="Open main menu" aria-expanded={open}>
+        <button className='cursor-pointer' onClick={() => setOpen(true)} aria-label="Open main menu" aria-expanded={open}>
           <Bars3Icon  className="text-sky-500 h-10 w-10"/>
         </button>
     

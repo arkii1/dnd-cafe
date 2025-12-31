@@ -1,8 +1,4 @@
 import "./globals.css";
-import {
-  Bars3Icon,
-} from '@heroicons/react/24/outline';
-import Image from "next/image";
 import Footer from "./ui/footer";
 import Navbar from "./ui/navbar";
 
@@ -21,7 +17,26 @@ export default function RootLayout({
         className={`antialiased`}
       >
         <header className="fixed flex justify-between items-center bg-stone-100 w-screen px-8 z-50">
-          <Image height={96} width={96} alt="DnD Cafe logo" src="/icon.png"/>
+          <svg
+            className="h-xl w-xl my-2"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 128 128"
+            fill="none"
+            stroke="oklch(68.5% 0.169 237.323)"
+            stroke-width="6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polygon points="64 6 112 34 112 94 64 122 16 94 16 34" />
+
+            <rect x="44" y="52" width="32" height="30" rx="4" />
+            <path d="M76 58h6a8 8 0 0 1 0 16h-6" />
+
+            <path d="M52 44c0-6 4-6 4-12" />
+            <path d="M64 44c0-6 4-6 4-12" />
+            <path d="M76 44c0-6 4-6 4-12" />
+          </svg>
+
           <Navbar />
         </header>
         <main>
