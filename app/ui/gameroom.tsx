@@ -36,7 +36,7 @@ export default function GameRoom() {
                         <label className="text-xs text-sky-700" htmlFor="booking-email">Email</label>
                         <input
                             id="booking-email"
-                            name="email"
+                            name="booking-email"
                             type="email"
                             autoComplete="email"
                             className="outline-0 text-sky-700"
@@ -51,7 +51,7 @@ export default function GameRoom() {
 
                         <select
                             id="booking-time"
-                            name="time"
+                            name="booking-time"
                             className="outline-0 text-sky-700 w-full"
                         >
                             <option value="">Select a time</option>
