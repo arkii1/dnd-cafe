@@ -21,7 +21,7 @@ export default function RootLayout({
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 128 128"
             fill="none"
-            stroke="oklch(68.5% 0.169 237.323)"
+            stroke="oklch(50% 0.134 242.749)"
             stroke-width="6"
             stroke-linecap="round"
             stroke-linejoin="round"
