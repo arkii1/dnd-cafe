@@ -3,6 +3,7 @@ import {
   Bars3Icon,
 } from '@heroicons/react/24/outline';
 import Image from "next/image";
+import Footer from "./ui/footer";
 
 export default function RootLayout({
   children,
@@ -25,6 +26,7 @@ export default function RootLayout({
         <main>
           {children}  
         </main>
+        <Footer />
       </body>
     </html>
   );
