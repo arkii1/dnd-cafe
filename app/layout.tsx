@@ -16,7 +16,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <header className="fixed flex justify-between items-center bg-stone-100 w-screen px-8 z-50">
+        <header className="fixed flex justify-between items-center bg-stone-100 w-screen px-8 z-50 shadow-lg">
           <svg
             className="h-xl w-xl my-2"
             xmlns="http://www.w3.org/2000/svg"
