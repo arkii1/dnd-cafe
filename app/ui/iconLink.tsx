@@ -5,5 +5,5 @@ export default function IconLink({link, icon : IconComponent, classes = ''} : {
     icon: React.FC<React.SVGProps<SVGSVGElement>>,
     classes?: string
 }) {
-    return <Link className='hover:cursor-pointer' href={link}><IconComponent className={`h-m w-m ${classes}`}/></Link>
+    return <Link className='cursor-pointer' href={link}><IconComponent className={`hover:opacity-75 h-m w-m ${classes}`}/></Link>
 }
