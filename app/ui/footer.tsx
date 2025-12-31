@@ -4,8 +4,8 @@ import NewsLetterSignUp from "./newsLetterSignup";
 
 export default function Footer() {
     return (
-        <footer className="grid py-12 px-8 gap-8 w-full">
-            <p className="col-span-full text-md flex flex-col justify-start gap-2">
+        <footer className="grid py-12 px-8 gap-8 w-full sm:grid-cols-2">
+            <p className="col-span-full sm:col-span-1 text-md flex flex-col justify-start gap-2">
                 <strong>Get in touch</strong>
                 <span className="font-light">Call us on <strong className="font-bold">01234567891</strong> or email <strong className="font-bold">info@dndcafe.co.uk</strong></span>
 
