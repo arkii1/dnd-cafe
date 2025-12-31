@@ -1,6 +1,5 @@
 import "./globals.css";
 import Footer from "./ui/footer";
-import Navbar from "./ui/navbar";
 
 export default function RootLayout({
   children,
@@ -16,7 +15,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <header className="fixed flex justify-between items-center bg-stone-100 w-screen px-8 z-50 shadow-lg">
+        <header className="fixed flex justify-center items-center bg-stone-100 w-screen px-8 z-50 shadow-lg">
           <svg
             className="h-xl w-xl my-2"
             xmlns="http://www.w3.org/2000/svg"
@@ -36,8 +35,6 @@ export default function RootLayout({
             <path d="M64 44c0-6 4-6 4-12" />
             <path d="M76 44c0-6 4-6 4-12" />
           </svg>
-
-          <Navbar />
         </header>
         <main>
           {children}  
