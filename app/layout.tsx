@@ -4,6 +4,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Image from "next/image";
 import Footer from "./ui/footer";
+import Navbar from "./ui/navbar";
 
 export default function RootLayout({
   children,
@@ -21,7 +22,7 @@ export default function RootLayout({
       >
         <header className="fixed flex justify-between items-center bg-stone-100 w-screen px-8 z-50">
           <Image height={96} width={96} alt="DnD Cafe logo" src="/icon.png"/>
-          <Bars3Icon className="text-sky-500 h-10 w-10 cursor-pointer"/>
+          <Navbar />
         </header>
         <main>
           {children}  
